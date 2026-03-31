@@ -3,12 +3,15 @@ Simple drag &amp; drop batch file to automatically turn images into COLMAP datas
 
 # Requirements
 1. COLAMP (CUDA Tested)
-Main image to update is path to COLMAP in batch file.
-Line 6: set "COLMAP_EXE=C:\CM\colmap-x64-windows-cuda\bin\colmap.exe"  // Update to your local path.
+2. In the .bat, update path to local folder where COLMAP.exe reides.
+e.g.,"COLMAP_EXE=C:\CM\colmap-x64-windows-cuda\bin\colmap.exe"  // Update to your local path.
 
-2. Images folder inside of a project name folder
+2. Have an Images folder inside of a project name folder
    E.g. C:\GS\Watertower\Images
 
 3. Drag+drop the project folder (Watertower) ontop of the .bat file.
+<img width="271" height="190" alt="Screenshot 2026-03-31 132954" src="https://github.com/user-attachments/assets/da0f2559-36b0-4109-8bc0-7790cb108d08" />
 
 4. Once complete, you can drag+drop folder into Lichtfeld Studio.
+<img width="963" height="747" alt="Screenshot 2026-03-31 133217" src="https://github.com/user-attachments/assets/81112215-35ee-477a-8570-6442f91c51b5" />
+
