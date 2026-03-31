@@ -3,7 +3,7 @@ Simple drag &amp; drop batch file to automatically turn images into COLMAP datas
 
 # Requirements
 1. COLMAP (CUDA Tested)
-2. In the .bat, update path to local folder where COLMAP.exe reides.
+2. In the colmapit.bat, update path to local folder where COLMAP.exe resides.
 e.g.,"COLMAP_EXE=C:\CM\colmap-x64-windows-cuda\bin\colmap.exe"  // Update to your local path.
 
 2. Have an Images folder inside of a project name folder
